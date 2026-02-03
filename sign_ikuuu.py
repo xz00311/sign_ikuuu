@@ -11,8 +11,8 @@ agentid = os.environ.get('WX_AGENTID') or ''                # 应用ID
 
 def handler(event=None, context=None):
     # 本地测试建议直接写账号密码（或保留 os.environ 也可以）
-    email = os.environ.get('IKUUU_EMAIL') or ''
-    passwd = os.environ.get('IKUUU_PASSWORD') or ''
+    email = os.environ.get('zhqf2080@126.com') or ''
+    passwd = os.environ.get('xz123456789') or ''
 
     session = requests.session()
 
@@ -50,3 +50,4 @@ def handler(event=None, context=None):
 
 if __name__ == "__main__":
     handler()
+
